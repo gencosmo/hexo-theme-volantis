@@ -1,0 +1,36 @@
+.link-section {
+    margin-bottom: 3rem;
+  }
+  .link-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-left: 5px solid #49b1f5;
+    padding-left: 10px;
+    margin-bottom: 1.5rem;  /* 标题下方留出空间 */
+    margin-top: 2rem;       /* 标题上方空间（可选） */
+  }
+  .link-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10.2rem 1rem;  /* 上下1.2rem，左右1rem */
+  }
+  .link-card {
+    background: var(--card-bg, #fff);
+    border-radius: 12px;
+    padding: 1rem;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--card-box-shadow, 0 0 5px rgba(0,0,0,0.1));
+    transition: transform 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.2rem; /* 原来是1rem，稍微加一点 */
+  }
+  .link-card:hover {
+    transform: translateY(-4px);
+  }
+  .link-card i {
+    font-size: 1.5rem;
+  }
+  
